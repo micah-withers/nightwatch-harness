@@ -78,6 +78,13 @@ module.exports.TestVars = (browser, defaultVars) => {
       var instanceVars = Object.keys(_instanceVars).map((key) => ({key: key, value: _instanceVars[key]}));
       var defaultVars = Object.keys(_defaultVars).map((key) => ({key: key, value: _defaultVars[key]}));
 
+      defaultVars = combineVarsWith(defaultVars, system);
+      defaultVars = combineVarsWith(defaultVars, defaultVars, false);
+
+      instanceVars = combineVarsWith(instanceVars, system);
+      instanceVars = combineVarsWith(instanceVars, envVars);
+      instanceVars = combineVarsWith(instanceVars, testVars, false);
+
       var computed = Object.assign({},
         spreadVariables(system),
         spreadVariables(testVars),

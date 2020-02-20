@@ -1,0 +1,59 @@
+{
+  "totalSuites": 3,
+  "totalTests": 3,
+  "suites": [
+    {
+      "suiteName": "AddLotPopup",
+      "fileName": "AddLotPopup.js",
+      "totalTests": 1,
+      "tests": [
+        {
+          "id": "BklbLFFmI",
+          "name": "Add Lot Popup",
+          "actions": 12
+        }
+      ]
+    },
+    {
+      "suiteName": "AssertButtonsExist",
+      "fileName": "AssertButtonsExist.js",
+      "totalTests": 1,
+      "tests": [
+        {
+          "id": "SJglbItYXU",
+          "name": "Assert Buttons Exist",
+          "actions": 15
+        }
+      ]
+    },
+    {
+      "suiteName": "FieldsandSubmit",
+      "fileName": "FieldsandSubmit.js",
+      "totalTests": 1,
+      "tests": [
+        {
+          "id": "SJWgW8YKm8",
+          "name": "Fields and Submit",
+          "actions": 11
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "BklbLFFmI",
+      "name": "Add Lot Popup",
+      "actions": 12
+    },
+    {
+      "id": "SJglbItYXU",
+      "name": "Assert Buttons Exist",
+      "actions": 15
+    },
+    {
+      "id": "SJWgW8YKm8",
+      "name": "Fields and Submit",
+      "actions": 11
+    }
+  ]
+}
